@@ -10,17 +10,17 @@
 		072576FB161E2EA300AB4630 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072576FA161E2EA300AB4630 /* UIKit.framework */; };
 		072576FD161E2EA300AB4630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072576FC161E2EA300AB4630 /* Foundation.framework */; };
 		072576FF161E2EA300AB4630 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072576FE161E2EA300AB4630 /* CoreGraphics.framework */; };
-		07EBA461161F872E00F8C2D6 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EBA44E161F872E00F8C2D6 /* JRSwizzle.m */; };
-		07EBA462161F872E00F8C2D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EBA451161F872E00F8C2D6 /* AppDelegate.m */; };
-		07EBA463161F872E00F8C2D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA452161F872E00F8C2D6 /* Default-568h@2x.png */; };
-		07EBA464161F872E00F8C2D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA453161F872E00F8C2D6 /* Default.png */; };
-		07EBA465161F872E00F8C2D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA454161F872E00F8C2D6 /* Default@2x.png */; };
-		07EBA466161F872E00F8C2D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA455161F872E00F8C2D6 /* InfoPlist.strings */; };
-		07EBA467161F872E00F8C2D6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA457161F872E00F8C2D6 /* ViewController.xib */; };
-		07EBA468161F872E00F8C2D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EBA459161F872E00F8C2D6 /* main.m */; };
-		07EBA469161F872E00F8C2D6 /* UITableViewAnimation-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA45A161F872E00F8C2D6 /* UITableViewAnimation-Info.plist */; };
-		07EBA46A161F872E00F8C2D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EBA45D161F872E00F8C2D6 /* ViewController.m */; };
-		07EBA46B161F872E00F8C2D6 /* UITableView+BottomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EBA460161F872E00F8C2D6 /* UITableView+BottomAnimation.m */; };
+		07EBA48A161F8BB300F8C2D6 /* UITableView+BottomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EBA477161F8BB300F8C2D6 /* UITableView+BottomAnimation.m */; };
+		07EBA48B161F8BB300F8C2D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EBA47A161F8BB300F8C2D6 /* AppDelegate.m */; };
+		07EBA48C161F8BB300F8C2D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA47B161F8BB300F8C2D6 /* Default-568h@2x.png */; };
+		07EBA48D161F8BB300F8C2D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA47C161F8BB300F8C2D6 /* Default.png */; };
+		07EBA48E161F8BB300F8C2D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA47D161F8BB300F8C2D6 /* Default@2x.png */; };
+		07EBA48F161F8BB300F8C2D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA47E161F8BB300F8C2D6 /* InfoPlist.strings */; };
+		07EBA490161F8BB300F8C2D6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA480161F8BB300F8C2D6 /* ViewController.xib */; };
+		07EBA491161F8BB300F8C2D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EBA482161F8BB300F8C2D6 /* main.m */; };
+		07EBA492161F8BB300F8C2D6 /* UITableViewAnimation-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07EBA483161F8BB300F8C2D6 /* UITableViewAnimation-Info.plist */; };
+		07EBA493161F8BB300F8C2D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EBA486161F8BB300F8C2D6 /* ViewController.m */; };
+		07EBA494161F8BB300F8C2D6 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EBA489161F8BB300F8C2D6 /* JRSwizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,22 +28,22 @@
 		072576FA161E2EA300AB4630 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		072576FC161E2EA300AB4630 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		072576FE161E2EA300AB4630 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		07EBA44D161F872E00F8C2D6 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
-		07EBA44E161F872E00F8C2D6 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
-		07EBA450161F872E00F8C2D6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		07EBA451161F872E00F8C2D6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07EBA452161F872E00F8C2D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		07EBA453161F872E00F8C2D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		07EBA454161F872E00F8C2D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		07EBA456161F872E00F8C2D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		07EBA458161F872E00F8C2D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		07EBA459161F872E00F8C2D6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07EBA45A161F872E00F8C2D6 /* UITableViewAnimation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UITableViewAnimation-Info.plist"; sourceTree = "<group>"; };
-		07EBA45B161F872E00F8C2D6 /* UITableViewAnimation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewAnimation-Prefix.pch"; sourceTree = "<group>"; };
-		07EBA45C161F872E00F8C2D6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07EBA45D161F872E00F8C2D6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		07EBA45F161F872E00F8C2D6 /* UITableView+BottomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+BottomAnimation.h"; sourceTree = "<group>"; };
-		07EBA460161F872E00F8C2D6 /* UITableView+BottomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BottomAnimation.m"; sourceTree = "<group>"; };
+		07EBA476161F8BB300F8C2D6 /* UITableView+BottomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+BottomAnimation.h"; sourceTree = "<group>"; };
+		07EBA477161F8BB300F8C2D6 /* UITableView+BottomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BottomAnimation.m"; sourceTree = "<group>"; };
+		07EBA479161F8BB300F8C2D6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07EBA47A161F8BB300F8C2D6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07EBA47B161F8BB300F8C2D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07EBA47C161F8BB300F8C2D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		07EBA47D161F8BB300F8C2D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		07EBA47F161F8BB300F8C2D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07EBA481161F8BB300F8C2D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		07EBA482161F8BB300F8C2D6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07EBA483161F8BB300F8C2D6 /* UITableViewAnimation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UITableViewAnimation-Info.plist"; sourceTree = "<group>"; };
+		07EBA484161F8BB300F8C2D6 /* UITableViewAnimation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		07EBA485161F8BB300F8C2D6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07EBA486161F8BB300F8C2D6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07EBA488161F8BB300F8C2D6 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		07EBA489161F8BB300F8C2D6 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +65,9 @@
 			children = (
 				072576F9161E2EA300AB4630 /* Frameworks */,
 				072576F7161E2EA300AB4630 /* Products */,
-				07EBA44C161F872E00F8C2D6 /* JRSwizzle */,
-				07EBA44F161F872E00F8C2D6 /* Sources */,
-				07EBA45E161F872E00F8C2D6 /* UITableView+BottomAnimation */,
+				07EBA475161F8BB300F8C2D6 /* UITableView+BottomAnimation */,
+				07EBA478161F8BB300F8C2D6 /* Sources */,
+				07EBA487161F8BB300F8C2D6 /* JRSwizzle */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,41 +89,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		07EBA44C161F872E00F8C2D6 /* JRSwizzle */ = {
+		07EBA475161F8BB300F8C2D6 /* UITableView+BottomAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				07EBA44D161F872E00F8C2D6 /* JRSwizzle.h */,
-				07EBA44E161F872E00F8C2D6 /* JRSwizzle.m */,
+				07EBA476161F8BB300F8C2D6 /* UITableView+BottomAnimation.h */,
+				07EBA477161F8BB300F8C2D6 /* UITableView+BottomAnimation.m */,
 			);
-			path = JRSwizzle;
+			path = "UITableView+BottomAnimation";
 			sourceTree = "<group>";
 		};
-		07EBA44F161F872E00F8C2D6 /* Sources */ = {
+		07EBA478161F8BB300F8C2D6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				07EBA450161F872E00F8C2D6 /* AppDelegate.h */,
-				07EBA451161F872E00F8C2D6 /* AppDelegate.m */,
-				07EBA452161F872E00F8C2D6 /* Default-568h@2x.png */,
-				07EBA453161F872E00F8C2D6 /* Default.png */,
-				07EBA454161F872E00F8C2D6 /* Default@2x.png */,
-				07EBA455161F872E00F8C2D6 /* InfoPlist.strings */,
-				07EBA457161F872E00F8C2D6 /* ViewController.xib */,
-				07EBA459161F872E00F8C2D6 /* main.m */,
-				07EBA45A161F872E00F8C2D6 /* UITableViewAnimation-Info.plist */,
-				07EBA45B161F872E00F8C2D6 /* UITableViewAnimation-Prefix.pch */,
-				07EBA45C161F872E00F8C2D6 /* ViewController.h */,
-				07EBA45D161F872E00F8C2D6 /* ViewController.m */,
+				07EBA479161F8BB300F8C2D6 /* AppDelegate.h */,
+				07EBA47A161F8BB300F8C2D6 /* AppDelegate.m */,
+				07EBA47B161F8BB300F8C2D6 /* Default-568h@2x.png */,
+				07EBA47C161F8BB300F8C2D6 /* Default.png */,
+				07EBA47D161F8BB300F8C2D6 /* Default@2x.png */,
+				07EBA47E161F8BB300F8C2D6 /* InfoPlist.strings */,
+				07EBA480161F8BB300F8C2D6 /* ViewController.xib */,
+				07EBA482161F8BB300F8C2D6 /* main.m */,
+				07EBA483161F8BB300F8C2D6 /* UITableViewAnimation-Info.plist */,
+				07EBA484161F8BB300F8C2D6 /* UITableViewAnimation-Prefix.pch */,
+				07EBA485161F8BB300F8C2D6 /* ViewController.h */,
+				07EBA486161F8BB300F8C2D6 /* ViewController.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		07EBA45E161F872E00F8C2D6 /* UITableView+BottomAnimation */ = {
+		07EBA487161F8BB300F8C2D6 /* JRSwizzle */ = {
 			isa = PBXGroup;
 			children = (
-				07EBA45F161F872E00F8C2D6 /* UITableView+BottomAnimation.h */,
-				07EBA460161F872E00F8C2D6 /* UITableView+BottomAnimation.m */,
+				07EBA488161F8BB300F8C2D6 /* JRSwizzle.h */,
+				07EBA489161F8BB300F8C2D6 /* JRSwizzle.m */,
 			);
-			path = "UITableView+BottomAnimation";
+			path = JRSwizzle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,12 +177,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EBA463161F872E00F8C2D6 /* Default-568h@2x.png in Resources */,
-				07EBA464161F872E00F8C2D6 /* Default.png in Resources */,
-				07EBA465161F872E00F8C2D6 /* Default@2x.png in Resources */,
-				07EBA466161F872E00F8C2D6 /* InfoPlist.strings in Resources */,
-				07EBA467161F872E00F8C2D6 /* ViewController.xib in Resources */,
-				07EBA469161F872E00F8C2D6 /* UITableViewAnimation-Info.plist in Resources */,
+				07EBA48C161F8BB300F8C2D6 /* Default-568h@2x.png in Resources */,
+				07EBA48D161F8BB300F8C2D6 /* Default.png in Resources */,
+				07EBA48E161F8BB300F8C2D6 /* Default@2x.png in Resources */,
+				07EBA48F161F8BB300F8C2D6 /* InfoPlist.strings in Resources */,
+				07EBA490161F8BB300F8C2D6 /* ViewController.xib in Resources */,
+				07EBA492161F8BB300F8C2D6 /* UITableViewAnimation-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,29 +193,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EBA461161F872E00F8C2D6 /* JRSwizzle.m in Sources */,
-				07EBA462161F872E00F8C2D6 /* AppDelegate.m in Sources */,
-				07EBA468161F872E00F8C2D6 /* main.m in Sources */,
-				07EBA46A161F872E00F8C2D6 /* ViewController.m in Sources */,
-				07EBA46B161F872E00F8C2D6 /* UITableView+BottomAnimation.m in Sources */,
+				07EBA48A161F8BB300F8C2D6 /* UITableView+BottomAnimation.m in Sources */,
+				07EBA48B161F8BB300F8C2D6 /* AppDelegate.m in Sources */,
+				07EBA491161F8BB300F8C2D6 /* main.m in Sources */,
+				07EBA493161F8BB300F8C2D6 /* ViewController.m in Sources */,
+				07EBA494161F8BB300F8C2D6 /* JRSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		07EBA455161F872E00F8C2D6 /* InfoPlist.strings */ = {
+		07EBA47E161F8BB300F8C2D6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07EBA456161F872E00F8C2D6 /* en */,
+				07EBA47F161F8BB300F8C2D6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		07EBA457161F872E00F8C2D6 /* ViewController.xib */ = {
+		07EBA480161F8BB300F8C2D6 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07EBA458161F872E00F8C2D6 /* en */,
+				07EBA481161F8BB300F8C2D6 /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
