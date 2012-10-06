@@ -59,13 +59,13 @@
 {
     [UITableView
      jr_swizzleMethod:@selector(swizzled_insertRowsAtIndexPaths:withIndexPath:)
-     withMethod:@selector(insertRowsAtIndexPaths:withRowAnimation::) error:nil];
+     withMethod:@selector(insertRowsAtIndexPaths:withRowAnimation:) error:nil];
     
     [self swizzled_insertRowsAtIndexPaths:indexPaths withRowAnimation:animation];
     
     [UITableView
      jr_swizzleMethod:@selector(swizzled_insertRowsAtIndexPaths:withIndexPath:)
-     withMethod:@selector(insertRowsAtIndexPaths:withRowAnimation::) error:nil];
+     withMethod:@selector(insertRowsAtIndexPaths:withRowAnimation:) error:nil];
     
     BOOL isFromBottomAnimation = animation == UITableViewRowAnimationFromBottom;
     
